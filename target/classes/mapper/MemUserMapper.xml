@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.testes.mapper.MemUserMapper">
+
+	<resultMap id="BaseResultMap" type="com.testes.entity.MemUserEntity">
+		<id column="ID" property="id" />
+		<result column="USERNAME" property="username" />
+		<result column="PASSWORD" property="password" />
+		<result column="SALT" property="salt" />
+		<result column="COMPANY_ID" property="companyId" />
+		<result column="PRODUCT_TYPE" property="productType" />
+		<result column="BASE_PRODUCT_TYPE" property="baseProductType" />
+		<result column="PRODUCT_MANAGER" property="productManager" />
+		<result column="COMPANY_ID_EXP" property="companyIdExp" />
+		<result column="TELEPHONE" property="telephone" />
+		<result column="LOGIN_IP" property="loginIp" />
+		<result column="LOGIN_DATE" property="loginDate" />
+		<result column="IS_ONLINE" property="isOnline" />
+		<result column="ACCOUNT_TYPE" property="accountType" />
+		<result column="IS_LOCK" property="isLock" />
+		<result column="LOCK_START_TIME" property="lockStartTime" />
+		<result column="LOCK_END_TIME" property="lockEndTime" />
+		<result column="IS_VALID" property="isValid" />
+		<result column="VALID_START_TIME" property="validStartTime" />
+		<result column="VALID_END_TIME" property="validEndTime" />
+		<result column="IS_ENABLE" property="isEnable" />
+		<result column="VALID_FLAG" property="validFlag" />
+		<result column="CREATE_TIME" property="createTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+		<result column="APP_PUSH_EVENT_MSG" property="appPushEventMsg" />
+		<result column="APP_PUSH_FACE_MSG" property="appPushFaceMsg" />
+		<result column="APP_PUSH_ALARM_MSG" property="appPushAlarmMsg" />
+		<result column="TYPE" property="type" />
+		<result column="DELETE_FLAG" property="deleteFlag" />
+	</resultMap>
+
+    <!-- 通用查询结果列-->
+    <sql id="Base_Column_List">
+        ID, USERNAME, PASSWORD, SALT, COMPANY_ID, PRODUCT_TYPE, BASE_PRODUCT_TYPE, PRODUCT_MANAGER, COMPANY_ID_EXP, TELEPHONE, LOGIN_IP, LOGIN_DATE, IS_ONLINE, ACCOUNT_TYPE, IS_LOCK, LOCK_START_TIME, LOCK_END_TIME, IS_VALID, VALID_START_TIME, VALID_END_TIME, IS_ENABLE, VALID_FLAG, CREATE_TIME, UPDATE_TIME, APP_PUSH_EVENT_MSG, APP_PUSH_FACE_MSG, APP_PUSH_ALARM_MSG, TYPE, DELETE_FLAG
+    </sql>
+</mapper>

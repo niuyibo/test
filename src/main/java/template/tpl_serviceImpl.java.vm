@@ -1,0 +1,17 @@
+package ${package.ServiceImpl};
+
+import com.testes.entity.${entity}Entity;
+import ${package.Mapper}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+import ${superServiceImplClassPackage};
+import org.springframework.stereotype.Service;
+
+/**
+ * @Description:  ${table.comment}服务实现类
+ * @Author: ${author}
+ * @Date: ${date}
+ */
+@Service
+public class ${table.ServiceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}Entity> implements ${table.serviceName} {
+	
+}

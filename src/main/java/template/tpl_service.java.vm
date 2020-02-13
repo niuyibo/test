@@ -1,0 +1,13 @@
+package ${package.Service};
+
+import com.testes.entity.${entity}Entity;
+import ${superServiceClassPackage};
+
+/**
+ * @Description:  ${table.comment}服务接口
+ * @Author: ${author}
+ * @Date: ${date}
+ */
+public interface ${table.serviceName} extends ${superServiceClass}<${entity}Entity> {
+	
+}

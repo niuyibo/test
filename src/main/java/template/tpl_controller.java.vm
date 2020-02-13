@@ -1,0 +1,18 @@
+package ${package.Controller};
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+import ${package.Service}.${table.serviceName};
+
+/**
+ * @Description:  ${table.comment}控制器
+ * @Author: ${author}
+ * @Date: ${date}
+ */
+@RestController
+public class ${table.controllerName} {
+
+	 @Autowired
+	 private I${entity}Service i${entity}Service;
+	 
+}

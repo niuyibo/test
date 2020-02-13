@@ -1,0 +1,13 @@
+package ${package.Mapper};
+
+import com.testes.entity.${entity}Entity;
+import ${superMapperClassPackage};
+
+/**
+ * @Description:  ${table.comment}Mapper接口
+ * @Author: ${author}
+ * @Date: ${date}
+ */
+public interface ${table.mapperName} extends ${superMapperClass}<${entity}Entity> {
+
+}
