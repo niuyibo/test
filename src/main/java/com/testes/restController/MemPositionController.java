@@ -18,6 +18,7 @@ import com.testes.utils.RenderResultUtil;
  * @Author: niuyibo
  * @Date: 2020-02-13
  */
+
 @RestController
 @RequestMapping("memposition")
 public class MemPositionController {
