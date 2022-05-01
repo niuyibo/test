@@ -160,7 +160,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency> -->
-
 	</dependencies>
 
 	<!-- 解决 SpringBoot打包没有主清单属性 https://www.cnblogs.com/niceboat/p/6230448.html -->
